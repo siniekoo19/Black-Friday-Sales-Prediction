@@ -1,38 +1,14 @@
 # Black-Friday-Sales-Prediction
-A ML project to predict sales for Black Friday.
 ![Logo](https://github.com/siniekoo19/Black-Friday-Sales-Prediction/assets/144519238/2742c8b6-b6b4-4263-a1a6-1b7606df867a)
+This Machine Learning project is devoted to accurately predicting sales tailored for the Black Friday event. Its primary methodology revolves around the implementation of Linear Regression (LR), which has demonstrated superior performance compared to other models in terms of accuracy. Achieving a commendable accuracy score of 78%, LR serves as the cornerstone of this forecasting system. Moreover, the project integrates the utilization of the AutoML library EvalML to conduct extensive model evaluation, thereby augmenting the selection process for optimal predictive performance.
 
- 
- 
- 
- 
- 
- ## Webapp
- [house-price-prediction-webapp](https://house-price-prediction-using-xgboost-webapp.streamlit.app/)
-
-
-## Project Structure
-The project consists of two main folders:
-
-- `Home_Price_Prediction.py:` This file contains the code for building the machine learning model.
-- `app.py:` This file hosts the Streamlit application for predicting home prices.
-
-### Process:
-1. **Data Cleaning and Preprocessing:** 
-- The dataset is cleaned and preprocessed to ensure accurate predictions can be made.
-- Tasks include handling missing values, removing outliers, and encoding categorical variables if necessary.
-
-2. **Model Building:** 
-- The XGBoost model is built using the preprocessed data.
-- This involves training the model on historical data and fine-tuning hyperparameters to optimize performance.
-
-3. **Web Application Development:**
-- A Streamlit interface is created to provide a user-friendly web application.
-- Users input property details, and the application provides predicted home prices based on the trained model.
-
-4. **Deployment of Web Application:** 
-- The Streamlit application is deployed to a web server to make it accessible to users.
-- Users can access the application through a web browser to obtain predictions for home prices.
+## Python Libraries
+- Pandas
+- Numpy
+- Sklearn
+- Matplotlib
+- Seaborn
+- EvalML
 
 ## Authors
 [@siniekoo19](https://github.com/siniekoo19)
