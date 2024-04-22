@@ -7,7 +7,6 @@
 - Sklearn
 - Matplotlib
 - Seaborn
-- EvalML
 
 ## Authors
 [@siniekoo19](https://github.com/siniekoo19)
